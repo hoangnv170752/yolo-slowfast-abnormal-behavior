@@ -15,3 +15,4 @@
 *.webm
 *.ipynb_checkpoints*
 venv
+venv310
