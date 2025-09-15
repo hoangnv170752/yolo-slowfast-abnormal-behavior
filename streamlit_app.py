@@ -145,7 +145,7 @@ def main():
     if st.session_state.running:
         # Load models
         with st.spinner("Loading models..."):
-            # Load YOLO model
+            # Load YOLO model from torch.hub
             model = torch.hub.load('ultralytics/yolov5', 'yolov5l6').to(device)
             model.conf = conf_threshold
             model.iou = iou_threshold
