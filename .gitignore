@@ -16,3 +16,4 @@
 *.ipynb_checkpoints*
 venv
 venv310
+venv_py310
